@@ -8,23 +8,22 @@ body {
     box-sizing: border-box;
 }
 
-a:link {text-decoration: none}
-
 .cabecalho {
-    padding: 20px 0px;
-    justify-content: center;
-    display: flex;
-    color: black;
+    padding: 2% 0 0 15%;
+    display: flex;;
 }
 
 .cabecalho_menu {
-    text-decoration: none !important;
+    display: flex;
+    gap: 80px; 
+    }
+
+.cabecalho_menu_link {
+    color: black;
+    text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 600; 
-    display: flex;
-    gap: 25px;
-    color: black;
     }
 
  .apresentacao {
