@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:ital@0;1&display=swap');
 
+:root {
+    --fonte-principal: "Fredoka", sans-serif;
+    --fonte-secundaria: "Montserrat", sans-serif;
+}
+
 body {
     background-color: #FFF6E6; 
     /* height: 100vh; */
@@ -21,7 +26,7 @@ body {
 .cabecalho_menu_link {
     color: black;
     text-decoration: none;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 20px;
     font-weight: 600; 
     }
@@ -42,7 +47,7 @@ body {
 
 .apresentacao_conteudo_titulo {
     font-size: 36px;
-    font-family: "Fredoka", sans-serif;
+    font-family: var(--fonte-principal);
 }
 
 .titulo-destaque {
@@ -51,7 +56,7 @@ body {
 
 .apresentacao_conteudo_paragrafo {
     font-size: 16px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-weight: 400;
 
 }
@@ -65,7 +70,7 @@ body {
 }
 
 .apresentacao_subtitulo_links {
-    font-family: "Fredoka", sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: 400;
 }
 
@@ -81,7 +86,7 @@ body {
     padding: 4% 0%;
     text-decoration: none;
     color: black;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte-secundaria);
     transition: 1s;
     
 }
@@ -96,7 +101,7 @@ body {
     color: aliceblue;
     background-color: #3A3042 ;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-weight: 400;
 }
 
