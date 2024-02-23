@@ -1,3 +1,5 @@
+ /* Made by Enzo Luchini with Love https://www.linkedin.com/in/enzo-luchini-465444281/ */
+
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Montserrat:ital@0;1&display=swap');
 
 body {
@@ -8,14 +10,6 @@ body {
 
 .titulo-destaque {
     color: #3A3042;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-    height: 25%;
 }
 
  .apresentacao {
@@ -58,6 +52,9 @@ img {
 }
 
 .apresentacao_links_botao {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 5px solid #003049;
     width: 378px;
     text-align: center;
@@ -68,4 +65,10 @@ img {
     text-decoration: none;
     color: black;
     font-family: "Montserrat", sans-serif;
+    transition: 1s;
+}
+
+.apresentacao_links_botao:hover {
+    transition: 1s;
+background-color: #f2d29e;
 }
