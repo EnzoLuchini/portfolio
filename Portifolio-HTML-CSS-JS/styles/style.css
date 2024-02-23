@@ -8,6 +8,8 @@ body {
     box-sizing: border-box;
 }
 
+a:link {text-decoration: none}
+
 .cabecalho {
     padding: 20px 0px;
     justify-content: center;
@@ -16,7 +18,7 @@ body {
 }
 
 .cabecalho_menu {
-    text-decoration: none;
+    text-decoration: none !important;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 600; 
