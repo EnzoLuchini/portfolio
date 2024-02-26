@@ -28,8 +28,15 @@ body {
     text-decoration: none;
     font-family: var(--fonte-secundaria);
     font-size: 20px;
-    font-weight: 600; 
+    font-weight: 600;
+    transition: 1s; 
     }
+
+ .cabecalho_menu_link:hover {
+    transition: 1s;
+    color: #003049;
+    size: 1000px;
+}
 
  .apresentacao {
     justify-content: space-between;
