@@ -39,6 +39,7 @@ body {
 }
 
  .apresentacao {
+    gap: 80px;
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -46,7 +47,7 @@ body {
 }
 
 .apresentacao_conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -86,7 +87,7 @@ body {
     justify-content: center;
     gap: 16px;
     border: 5px solid #003049;
-    width: 378px;
+    width: 50%;
     border-radius: 15px;
     font-size: 1.5rem;
     font-weight: 600;
