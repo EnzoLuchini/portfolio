@@ -62,7 +62,7 @@ body {
 }
 
 .apresentacao_conteudo_paragrafo {
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-family: var(--fonte-secundaria);
     font-weight: 400;
 
@@ -144,4 +144,11 @@ body {
 .apresentacao_links_botao{
     width: auto;
     }
+}
+
+.apresentacao_conteudo_paragrafo1 {
+    font-size: 1.3rem;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    padding: 1rem;
 }
