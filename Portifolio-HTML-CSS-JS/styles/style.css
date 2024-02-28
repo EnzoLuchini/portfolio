@@ -152,3 +152,9 @@ body {
     font-weight: 400;
     padding: 1rem;
 }
+
+.titulo {
+    font-family: var(--fonte-principal);
+    color: #3A3042;
+    font-size: 2.2rem;
+}
