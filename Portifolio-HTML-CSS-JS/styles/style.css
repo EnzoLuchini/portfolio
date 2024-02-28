@@ -81,6 +81,10 @@ body {
     font-weight: 400;
 }
 
+.imagemico {
+    width: 10%;
+}
+
 .apresentacao_links_botao {
     display: flex;
     justify-content: center;
